@@ -113,28 +113,28 @@ We have been nominated to supply you the following grade(s) for bunker:]]></text
 	<columnHeader>
 		<band height="45" splitType="Stretch">
 			<staticText>
-				<reportElement mode="Opaque" x="1" y="0" width="98" height="40" uuid="eccabb75-a7f3-450c-8291-cac8dba31178"/>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="1" y="-45" width="98" height="40" isPrintInFirstWholeBand="true" uuid="eccabb75-a7f3-450c-8291-cac8dba31178"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[PRODUCT NAME]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="99" y="0" width="89" height="40" uuid="44d4d90a-622a-4381-aad2-3302d41d20cb"/>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="99" y="-45" width="89" height="40" isPrintInFirstWholeBand="true" uuid="44d4d90a-622a-4381-aad2-3302d41d20cb"/>
 				<textElement textAlignment="Center">
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Product was blended on board in advance ? (Yes / No)]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="189" y="0" width="80" height="40" uuid="7072c6a2-f264-469a-a782-754dc1c16463"/>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="189" y="-45" width="80" height="40" isPrintInFirstWholeBand="true" uuid="7072c6a2-f264-469a-a782-754dc1c16463"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Kinematic Viscosity @ 40°C or  50°C, mm²/s ISO 3104 ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="269" y="0" width="70" height="45" uuid="f553c518-1b12-4f4a-861c-d751be6ddbd0"/>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="269" y="-45" width="70" height="45" isPrintInFirstWholeBand="true" uuid="f553c518-1b12-4f4a-861c-d751be6ddbd0"/>
 				<textElement textAlignment="Center">
 					<font size="8"/>
 				</textElement>
@@ -143,21 +143,21 @@ ISO 3675
 ISO 12185]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="339" y="0" width="80" height="40" uuid="f553c518-1b12-4f4a-861c-d751be6ddbd0"/>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="339" y="-45" width="80" height="40" isPrintInFirstWholeBand="true" uuid="f553c518-1b12-4f4a-861c-d751be6ddbd0"/>
 				<textElement textAlignment="Center">
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Water Content % V/V ISO 3733]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="419" y="0" width="61" height="40" uuid="653b49f3-ad68-4c87-8424-5c1c06b70f37"/>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="419" y="-45" width="61" height="40" isPrintInFirstWholeBand="true" uuid="653b49f3-ad68-4c87-8424-5c1c06b70f37"/>
 				<textElement textAlignment="Center">
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Flash Point °C ISO 2719]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="480" y="0" width="61" height="40" uuid="f088ffc7-7312-44b7-8d8a-57b42acae71a"/>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="480" y="-45" width="61" height="40" isPrintInFirstWholeBand="true" uuid="f088ffc7-7312-44b7-8d8a-57b42acae71a"/>
 				<textElement textAlignment="Center">
 					<font size="8"/>
 				</textElement>
@@ -200,56 +200,56 @@ ISO 12185]]></text>
 	<columnFooter>
 		<band height="457" splitType="Stretch">
 			<staticText>
-				<reportElement x="1" y="2" width="489" height="18" uuid="72de1932-e57e-4853-8e63-90d207b5d737"/>
+				<reportElement isPrintRepeatedValues="false" x="1" y="2" width="489" height="18" isPrintInFirstWholeBand="true" uuid="72de1932-e57e-4853-8e63-90d207b5d737"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[* The COQ (Certificate of Quality) Density stated above is for fuel specification only and not for custody transfer quantity determination.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="0" y="20" width="60" height="20" uuid="73fa0fee-5ae2-42dc-82f1-9e23e866b318"/>
+				<reportElement isPrintRepeatedValues="false" x="0" y="20" width="60" height="20" isPrintInFirstWholeBand="true" uuid="73fa0fee-5ae2-42dc-82f1-9e23e866b318"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[We will supply]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="111" y="20" width="60" height="20" uuid="1b711238-3155-4b40-becb-36142f280156"/>
+				<reportElement isPrintRepeatedValues="false" x="111" y="20" width="60" height="20" isPrintInFirstWholeBand="true" uuid="1b711238-3155-4b40-becb-36142f280156"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[first, followed by]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="264" y="20" width="150" height="20" uuid="d68b8188-ee0f-42cf-942d-36413072d344"/>
+				<reportElement isPrintRepeatedValues="false" x="264" y="20" width="150" height="20" isPrintInFirstWholeBand="true" uuid="d68b8188-ee0f-42cf-942d-36413072d344"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[. The approximate delivery temperature is ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="458" y="20" width="39" height="20" uuid="1a94461d-81c7-44e3-8d4f-80b142e5fb54"/>
+				<reportElement isPrintRepeatedValues="false" x="458" y="20" width="39" height="20" isPrintInFirstWholeBand="true" uuid="1a94461d-81c7-44e3-8d4f-80b142e5fb54"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[ °C.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="0" y="41" width="186" height="18" uuid="f09d1dd0-a430-4092-b196-a23708695fbe"/>
+				<reportElement isPrintRepeatedValues="false" x="0" y="41" width="186" height="18" isPrintInFirstWholeBand="true" uuid="f09d1dd0-a430-4092-b196-a23708695fbe"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[The rated pumping capacity of our bunker tanker is ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="271" y="40" width="74" height="18" uuid="01ced298-7c01-49aa-97ba-6db609b51fbe"/>
+				<reportElement isPrintRepeatedValues="false" x="271" y="40" width="74" height="18" isPrintInFirstWholeBand="true" uuid="01ced298-7c01-49aa-97ba-6db609b51fbe"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[tonnes per hour.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="0" y="60" width="338" height="80" uuid="7741d017-3c24-4eab-a45c-b834296324f9"/>
+				<reportElement isPrintRepeatedValues="false" x="0" y="60" width="338" height="80" isPrintInFirstWholeBand="true" uuid="7741d017-3c24-4eab-a45c-b834296324f9"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
@@ -262,7 +262,7 @@ ISO 12185]]></text>
 3)	Is your vessel under any fuel quality testing programme ?]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="456" y="68" width="84" height="40" uuid="8224c921-e1bf-479c-b5d3-2c6740a7567d"/>
+				<reportElement isPrintRepeatedValues="false" x="456" y="68" width="84" height="40" isPrintInFirstWholeBand="true" uuid="8224c921-e1bf-479c-b5d3-2c6740a7567d"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
@@ -271,7 +271,7 @@ ISO 12185]]></text>
 tonnes per hour]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="0" y="140" width="498" height="40" uuid="44b2e9f9-e4c3-41bd-aa4b-a0ff10137945"/>
+				<reportElement isPrintRepeatedValues="false" x="0" y="140" width="498" height="40" isPrintInFirstWholeBand="true" uuid="44b2e9f9-e4c3-41bd-aa4b-a0ff10137945"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
@@ -281,286 +281,286 @@ Note 3 - Witnessing of custody transfer sampling is complusory.
 ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="0" y="180" width="100" height="20" uuid="f0a1667a-44af-42dd-9bdb-39a184454010"/>
+				<reportElement isPrintRepeatedValues="false" x="0" y="180" width="100" height="20" isPrintInFirstWholeBand="true" uuid="f0a1667a-44af-42dd-9bdb-39a184454010"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Acknowledge by:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="32" y="210" width="100" height="20" uuid="4ef42f67-bcbf-40b1-b714-5cd673399a52"/>
+				<reportElement isPrintRepeatedValues="false" x="32" y="210" width="100" height="20" isPrintInFirstWholeBand="true" uuid="4ef42f67-bcbf-40b1-b714-5cd673399a52"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Signature of Cargo Officer]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="221" y="210" width="100" height="20" uuid="1bd343f6-027a-4fef-805f-1484dcd9f81b"/>
+				<reportElement isPrintRepeatedValues="false" x="221" y="210" width="100" height="20" isPrintInFirstWholeBand="true" uuid="1bd343f6-027a-4fef-805f-1484dcd9f81b"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Signature of Chief Engineer]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="391" y="210" width="184" height="20" uuid="56fede0d-1dbb-4dc8-8fa9-efac29412aac"/>
+				<reportElement isPrintRepeatedValues="false" x="391" y="210" width="184" height="20" isPrintInFirstWholeBand="true" uuid="56fede0d-1dbb-4dc8-8fa9-efac29412aac"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Signature of Bunker Surveyor (when engaged)]]></text>
 			</staticText>
 			<line>
-				<reportElement x="211" y="210" width="115" height="1" uuid="b09c56f5-86ad-4b94-88d3-39060bd18fba"/>
+				<reportElement isPrintRepeatedValues="false" x="211" y="210" width="115" height="1" isPrintInFirstWholeBand="true" uuid="b09c56f5-86ad-4b94-88d3-39060bd18fba"/>
 			</line>
 			<line>
-				<reportElement x="25" y="209" width="115" height="1" uuid="025f2688-c785-42ac-84c8-cdf91775b916"/>
+				<reportElement isPrintRepeatedValues="false" x="25" y="209" width="115" height="1" isPrintInFirstWholeBand="true" uuid="025f2688-c785-42ac-84c8-cdf91775b916"/>
 			</line>
 			<line>
-				<reportElement x="383" y="209" width="171" height="1" uuid="ac15be34-f1a8-42e4-941e-1ef557759f66"/>
+				<reportElement isPrintRepeatedValues="false" x="383" y="209" width="171" height="1" isPrintInFirstWholeBand="true" uuid="ac15be34-f1a8-42e4-941e-1ef557759f66"/>
 			</line>
 			<staticText>
-				<reportElement x="0" y="233" width="100" height="20" uuid="3b0465e4-de00-47f4-ada2-f82622332aba"/>
+				<reportElement isPrintRepeatedValues="false" x="0" y="233" width="100" height="20" isPrintInFirstWholeBand="true" uuid="3b0465e4-de00-47f4-ada2-f82622332aba"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Name in Full:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="51" y="246" width="115" height="1" uuid="2fdb53ba-b1a1-4558-9e55-e31b3213bdd7"/>
+				<reportElement isPrintRepeatedValues="false" x="51" y="246" width="115" height="1" isPrintInFirstWholeBand="true" uuid="2fdb53ba-b1a1-4558-9e55-e31b3213bdd7"/>
 			</line>
 			<staticText>
-				<reportElement x="72" y="247" width="74" height="20" uuid="25bc1fa9-7ca3-4950-8ef7-25ff7d4daced"/>
+				<reportElement isPrintRepeatedValues="false" x="72" y="247" width="74" height="20" isPrintInFirstWholeBand="true" uuid="25bc1fa9-7ca3-4950-8ef7-25ff7d4daced"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[(Block Letters)]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="189" y="233" width="100" height="20" uuid="a5a12ba0-fa7f-4823-a79b-debe17c09588"/>
+				<reportElement isPrintRepeatedValues="false" x="189" y="233" width="100" height="20" isPrintInFirstWholeBand="true" uuid="a5a12ba0-fa7f-4823-a79b-debe17c09588"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Name in Full:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="241" y="246" width="115" height="1" uuid="966f963f-1d82-439f-8c13-9de00830751d"/>
+				<reportElement isPrintRepeatedValues="false" x="241" y="246" width="115" height="1" isPrintInFirstWholeBand="true" uuid="966f963f-1d82-439f-8c13-9de00830751d"/>
 			</line>
 			<staticText>
-				<reportElement x="262" y="247" width="74" height="20" uuid="1f913e01-dffb-45d4-8e49-1b80cafd25e5"/>
+				<reportElement isPrintRepeatedValues="false" x="262" y="247" width="74" height="20" isPrintInFirstWholeBand="true" uuid="1f913e01-dffb-45d4-8e49-1b80cafd25e5"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[(Block Letters)]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="396" y="236" width="100" height="20" uuid="f92d2cb2-dbd7-41ff-ab37-571877b13e9a"/>
+				<reportElement isPrintRepeatedValues="false" x="396" y="236" width="100" height="20" isPrintInFirstWholeBand="true" uuid="f92d2cb2-dbd7-41ff-ab37-571877b13e9a"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Name in Full:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="447" y="249" width="115" height="1" uuid="53ce59d0-b3ac-405d-a2b5-0c0948af82e7"/>
+				<reportElement isPrintRepeatedValues="false" x="447" y="249" width="115" height="1" isPrintInFirstWholeBand="true" uuid="53ce59d0-b3ac-405d-a2b5-0c0948af82e7"/>
 			</line>
 			<staticText>
-				<reportElement x="468" y="250" width="74" height="18" uuid="3bc21615-d584-46d9-879d-962d2c54f9a8"/>
+				<reportElement isPrintRepeatedValues="false" x="468" y="250" width="74" height="18" isPrintInFirstWholeBand="true" uuid="3bc21615-d584-46d9-879d-962d2c54f9a8"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[(Block Letters)]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="0" y="275" width="80" height="20" uuid="9336c0df-db37-4028-88da-3c509403615e"/>
+				<reportElement isPrintRepeatedValues="false" x="0" y="275" width="80" height="20" isPrintInFirstWholeBand="true" uuid="9336c0df-db37-4028-88da-3c509403615e"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Bunker Taker Stamp:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="190" y="275" width="60" height="20" uuid="335972ef-b328-4f37-81de-289b1f57f97f"/>
+				<reportElement isPrintRepeatedValues="false" x="190" y="275" width="60" height="20" isPrintInFirstWholeBand="true" uuid="335972ef-b328-4f37-81de-289b1f57f97f"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Vessel's Stamp:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="391" y="275" width="68" height="20" uuid="510c7e45-f031-42c8-9b01-88f2f2d818ab"/>
+				<reportElement isPrintRepeatedValues="false" x="391" y="275" width="68" height="20" isPrintInFirstWholeBand="true" uuid="510c7e45-f031-42c8-9b01-88f2f2d818ab"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Company Stamp:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="256" y="286" width="87" height="1" uuid="5689f56d-f0c8-4c23-8978-cf4405489f0a"/>
+				<reportElement isPrintRepeatedValues="false" x="256" y="286" width="87" height="1" isPrintInFirstWholeBand="true" uuid="5689f56d-f0c8-4c23-8978-cf4405489f0a"/>
 			</line>
 			<line>
-				<reportElement x="463" y="285" width="91" height="1" uuid="44b49515-e631-4fc6-a2ac-1a19c64dbcf6"/>
+				<reportElement isPrintRepeatedValues="false" x="463" y="285" width="91" height="1" isPrintInFirstWholeBand="true" uuid="44b49515-e631-4fc6-a2ac-1a19c64dbcf6"/>
 			</line>
 			<line>
-				<reportElement x="80" y="285" width="87" height="1" uuid="f2325202-34a6-49c0-a481-08764c9190bc"/>
+				<reportElement isPrintRepeatedValues="false" x="80" y="285" width="87" height="1" isPrintInFirstWholeBand="true" uuid="f2325202-34a6-49c0-a481-08764c9190bc"/>
 			</line>
 			<staticText>
-				<reportElement x="0" y="295" width="80" height="20" uuid="b75dca36-c814-4202-9676-881a5bb2adb5"/>
+				<reportElement isPrintRepeatedValues="false" x="0" y="295" width="80" height="20" isPrintInFirstWholeBand="true" uuid="b75dca36-c814-4202-9676-881a5bb2adb5"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Date / Time:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="81" y="312" width="87" height="1" uuid="d1322c90-1b5d-40db-bad0-1c30807e8027"/>
+				<reportElement isPrintRepeatedValues="false" x="81" y="312" width="87" height="1" isPrintInFirstWholeBand="true" uuid="d1322c90-1b5d-40db-bad0-1c30807e8027"/>
 			</line>
 			<staticText>
-				<reportElement x="189" y="295" width="60" height="20" uuid="cfa47eaa-de51-490c-91d1-91a55f1faa6c"/>
+				<reportElement isPrintRepeatedValues="false" x="189" y="295" width="60" height="20" isPrintInFirstWholeBand="true" uuid="cfa47eaa-de51-490c-91d1-91a55f1faa6c"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Date / Time:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="257" y="312" width="87" height="1" uuid="4b146aee-4103-4359-8787-355788e7d5fd"/>
+				<reportElement isPrintRepeatedValues="false" x="257" y="312" width="87" height="1" isPrintInFirstWholeBand="true" uuid="4b146aee-4103-4359-8787-355788e7d5fd"/>
 			</line>
 			<staticText>
-				<reportElement x="391" y="296" width="60" height="20" uuid="82c0a654-cef0-472c-8060-5891a66aa489"/>
+				<reportElement isPrintRepeatedValues="false" x="391" y="296" width="60" height="20" isPrintInFirstWholeBand="true" uuid="82c0a654-cef0-472c-8060-5891a66aa489"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Date / Time:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="465" y="312" width="87" height="1" uuid="cad5ba18-d237-4271-a02f-f050544d26ec"/>
+				<reportElement isPrintRepeatedValues="false" x="465" y="312" width="87" height="1" isPrintInFirstWholeBand="true" uuid="cad5ba18-d237-4271-a02f-f050544d26ec"/>
 			</line>
 			<staticText>
-				<reportElement x="0" y="330" width="100" height="20" uuid="2602ae79-740c-470f-a98d-ddade3b16d39"/>
+				<reportElement isPrintRepeatedValues="false" x="0" y="330" width="100" height="20" isPrintInFirstWholeBand="true" uuid="2602ae79-740c-470f-a98d-ddade3b16d39"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Constriant encountered:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="2" y="354" width="539" height="1" uuid="80f04696-97de-43a2-ba5b-f01128d28a1b"/>
+				<reportElement isPrintRepeatedValues="false" x="2" y="354" width="539" height="1" isPrintInFirstWholeBand="true" uuid="80f04696-97de-43a2-ba5b-f01128d28a1b"/>
 			</line>
 			<line>
-				<reportElement x="2" y="373" width="539" height="1" uuid="b781aa38-42af-4031-961f-153e0e0edb51"/>
+				<reportElement isPrintRepeatedValues="false" x="2" y="373" width="539" height="1" isPrintInFirstWholeBand="true" uuid="b781aa38-42af-4031-961f-153e0e0edb51"/>
 			</line>
 			<staticText>
-				<reportElement x="40" y="398" width="100" height="20" uuid="7f4292a8-4c53-450e-8b6b-290d12c06f61"/>
+				<reportElement isPrintRepeatedValues="false" x="40" y="398" width="100" height="20" isPrintInFirstWholeBand="true" uuid="7f4292a8-4c53-450e-8b6b-290d12c06f61"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Signature of Cargo Officer]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="229" y="398" width="100" height="20" uuid="b949862a-d872-4371-9151-16a806a98f60"/>
+				<reportElement isPrintRepeatedValues="false" x="229" y="398" width="100" height="20" isPrintInFirstWholeBand="true" uuid="b949862a-d872-4371-9151-16a806a98f60"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Signature of Chief Engineer]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="399" y="398" width="184" height="20" uuid="94126903-57f1-49e3-937b-c098653026bd"/>
+				<reportElement isPrintRepeatedValues="false" x="399" y="398" width="184" height="20" isPrintInFirstWholeBand="true" uuid="94126903-57f1-49e3-937b-c098653026bd"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Signature of Bunker Surveyor (when engaged)]]></text>
 			</staticText>
 			<line>
-				<reportElement x="219" y="398" width="115" height="1" uuid="2291561c-992b-4dd2-9df5-9a550a26bd41"/>
+				<reportElement isPrintRepeatedValues="false" x="219" y="398" width="115" height="1" isPrintInFirstWholeBand="true" uuid="2291561c-992b-4dd2-9df5-9a550a26bd41"/>
 			</line>
 			<line>
-				<reportElement x="33" y="397" width="115" height="1" uuid="f0a45956-6ac1-413b-8c2a-9e1be6a4669c"/>
+				<reportElement isPrintRepeatedValues="false" x="33" y="397" width="115" height="1" isPrintInFirstWholeBand="true" uuid="f0a45956-6ac1-413b-8c2a-9e1be6a4669c"/>
 			</line>
 			<line>
-				<reportElement x="391" y="397" width="171" height="1" uuid="b4a386c7-aaee-4f6f-b4ae-095e79c56b44"/>
+				<reportElement isPrintRepeatedValues="false" x="391" y="397" width="171" height="1" isPrintInFirstWholeBand="true" uuid="b4a386c7-aaee-4f6f-b4ae-095e79c56b44"/>
 			</line>
 			<staticText>
-				<reportElement x="33" y="430" width="48" height="20" uuid="172f8e1e-0ba9-438d-a4df-251c27fe1aca"/>
+				<reportElement isPrintRepeatedValues="false" x="33" y="430" width="48" height="20" isPrintInFirstWholeBand="true" uuid="172f8e1e-0ba9-438d-a4df-251c27fe1aca"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Date / Time:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="79" y="444" width="87" height="1" uuid="85bb59a4-2468-487d-a0b6-5fdca6f7a814"/>
+				<reportElement isPrintRepeatedValues="false" x="79" y="444" width="87" height="1" isPrintInFirstWholeBand="true" uuid="85bb59a4-2468-487d-a0b6-5fdca6f7a814"/>
 			</line>
 			<staticText>
-				<reportElement x="216" y="429" width="48" height="20" uuid="a2a9d8fb-9915-41a7-a14d-757fd49535f7"/>
+				<reportElement isPrintRepeatedValues="false" x="216" y="429" width="48" height="20" isPrintInFirstWholeBand="true" uuid="a2a9d8fb-9915-41a7-a14d-757fd49535f7"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Date / Time:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="262" y="443" width="87" height="1" uuid="abbef31e-78ca-4143-95c2-d75bb949fcf4"/>
+				<reportElement isPrintRepeatedValues="false" x="262" y="443" width="87" height="1" isPrintInFirstWholeBand="true" uuid="abbef31e-78ca-4143-95c2-d75bb949fcf4"/>
 			</line>
 			<line>
-				<reportElement x="438" y="444" width="87" height="1" uuid="d5227d0a-4f19-4e33-836a-68173e851a35"/>
+				<reportElement isPrintRepeatedValues="false" x="438" y="444" width="87" height="1" isPrintInFirstWholeBand="true" uuid="d5227d0a-4f19-4e33-836a-68173e851a35"/>
 			</line>
 			<staticText>
-				<reportElement x="392" y="430" width="48" height="20" uuid="74f47245-9fbc-4138-b514-4f602a74bc01"/>
+				<reportElement isPrintRepeatedValues="false" x="392" y="430" width="48" height="20" isPrintInFirstWholeBand="true" uuid="74f47245-9fbc-4138-b514-4f602a74bc01"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Date / Time:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="173" y="33" width="80" height="1" uuid="0aa3ab54-2fe8-4277-9a65-e39385f8833d"/>
+				<reportElement isPrintRepeatedValues="false" x="173" y="33" width="80" height="1" isPrintInFirstWholeBand="true" uuid="0aa3ab54-2fe8-4277-9a65-e39385f8833d"/>
 			</line>
 			<line>
-				<reportElement x="416" y="34" width="38" height="1" uuid="42f36207-53a3-42de-939d-190afd15cb08"/>
+				<reportElement isPrintRepeatedValues="false" x="416" y="34" width="38" height="1" isPrintInFirstWholeBand="true" uuid="42f36207-53a3-42de-939d-190afd15cb08"/>
 			</line>
 			<line>
-				<reportElement x="188" y="56" width="80" height="1" uuid="dcc2d619-5eaa-4cf0-bd95-5851d3f1bc57"/>
+				<reportElement isPrintRepeatedValues="false" x="188" y="56" width="80" height="1" isPrintInFirstWholeBand="true" uuid="dcc2d619-5eaa-4cf0-bd95-5851d3f1bc57"/>
 			</line>
 			<line>
-				<reportElement x="51" y="36" width="60" height="1" uuid="4374e693-73e7-4320-a83e-85c19994ae1e"/>
+				<reportElement isPrintRepeatedValues="false" x="51" y="36" width="60" height="1" isPrintInFirstWholeBand="true" uuid="4374e693-73e7-4320-a83e-85c19994ae1e"/>
 			</line>
 			<line>
-				<reportElement x="370" y="78" width="80" height="1" uuid="a5fe7019-481a-4871-8dab-2d382d0c16cb"/>
+				<reportElement isPrintRepeatedValues="false" x="370" y="78" width="80" height="1" isPrintInFirstWholeBand="true" uuid="a5fe7019-481a-4871-8dab-2d382d0c16cb"/>
 			</line>
 			<line>
-				<reportElement x="372" y="96" width="80" height="1" uuid="026e1799-3df6-444e-af25-b24510fa9883"/>
+				<reportElement isPrintRepeatedValues="false" x="372" y="96" width="80" height="1" isPrintInFirstWholeBand="true" uuid="026e1799-3df6-444e-af25-b24510fa9883"/>
 			</line>
 			<textField>
-				<reportElement x="398" y="62" width="190" height="20" uuid="dab51789-532f-44b9-ae06-31a0cc200b8a"/>
+				<reportElement isPrintRepeatedValues="false" x="398" y="62" width="190" height="20" isPrintInFirstWholeBand="true" uuid="dab51789-532f-44b9-ae06-31a0cc200b8a"/>
 				<textFieldExpression><![CDATA[$P{marineFuelOilTonnesPerHour}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="398" y="83" width="155" height="19" uuid="011e517b-7a6d-4e7f-aa33-def2083a7843"/>
+				<reportElement isPrintRepeatedValues="false" x="398" y="83" width="155" height="19" isPrintInFirstWholeBand="true" uuid="011e517b-7a6d-4e7f-aa33-def2083a7843"/>
 				<textFieldExpression><![CDATA[$P{marineGasTonnesPerHour}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="399" y="101" width="100" height="30" uuid="54176b65-4ee5-4351-8b1a-ef6397c92b9a"/>
+				<reportElement isPrintRepeatedValues="false" x="399" y="101" width="100" height="30" isPrintInFirstWholeBand="true" uuid="54176b65-4ee5-4351-8b1a-ef6397c92b9a"/>
 				<textFieldExpression><![CDATA[$P{allowLineClearing}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="399" y="118" width="140" height="20" uuid="81d02488-75ee-431c-acd9-774ece0981cb"/>
+				<reportElement isPrintRepeatedValues="false" x="399" y="118" width="140" height="20" isPrintInFirstWholeBand="true" uuid="81d02488-75ee-431c-acd9-774ece0981cb"/>
 				<textFieldExpression><![CDATA[$P{isUnderFuelQualityTesting}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="120" y="333" width="185" height="16" uuid="893ff1d2-e27e-4954-a56b-dc386d946e0f"/>
+				<reportElement isPrintRepeatedValues="false" x="120" y="333" width="185" height="16" isPrintInFirstWholeBand="true" uuid="893ff1d2-e27e-4954-a56b-dc386d946e0f"/>
 				<textFieldExpression><![CDATA[$P{constraintDescription}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="68" y="295" width="146" height="31" uuid="23b5408a-a304-4b61-aa24-b731f9d001dd"/>
+				<reportElement isPrintRepeatedValues="false" x="68" y="295" width="146" height="31" isPrintInFirstWholeBand="true" uuid="23b5408a-a304-4b61-aa24-b731f9d001dd"/>
 				<textFieldExpression><![CDATA[$P{cargoOfficerSignedAt}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="242" y="295" width="141" height="13" uuid="59d01076-1cf7-4063-a50f-c11aebde4e64"/>
+				<reportElement isPrintRepeatedValues="false" x="242" y="295" width="141" height="13" isPrintInFirstWholeBand="true" uuid="59d01076-1cf7-4063-a50f-c11aebde4e64"/>
 				<textFieldExpression><![CDATA[$P{chiefEngineerSignedAt}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="451" y="296" width="100" height="30" uuid="04b68b91-69e0-4682-9daf-09d4f4625d5c"/>
+				<reportElement isPrintRepeatedValues="false" x="451" y="296" width="100" height="30" isPrintInFirstWholeBand="true" uuid="04b68b91-69e0-4682-9daf-09d4f4625d5c"/>
 				<textFieldExpression><![CDATA[$P{surveyorSignedAt}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="443" y="415" width="100" height="30" uuid="c34c53f1-f135-4b00-bb2f-6c544a57e0b3"/>
+				<reportElement isPrintRepeatedValues="false" x="443" y="415" width="100" height="30" isPrintInFirstWholeBand="true" uuid="c34c53f1-f135-4b00-bb2f-6c544a57e0b3"/>
 				<textFieldExpression><![CDATA[$P{surveyorForConstraintSignedAt}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="269" y="413" width="100" height="30" uuid="ba584f85-9a1c-4ac7-b186-5ea0820cea4e"/>
+				<reportElement isPrintRepeatedValues="false" x="269" y="413" width="100" height="30" isPrintInFirstWholeBand="true" uuid="ba584f85-9a1c-4ac7-b186-5ea0820cea4e"/>
 				<textFieldExpression><![CDATA[$P{chiefEngineerForConstraintSignedAt}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="81" y="413" width="100" height="30" uuid="1e962d7f-d456-425c-add1-6a06006f468f"/>
+				<reportElement isPrintRepeatedValues="false" x="81" y="413" width="100" height="30" isPrintInFirstWholeBand="true" uuid="1e962d7f-d456-425c-add1-6a06006f468f"/>
 				<textFieldExpression><![CDATA[$P{cargoOfficerForConstraintSignedAt}]]></textFieldExpression>
 			</textField>
 		</band>
