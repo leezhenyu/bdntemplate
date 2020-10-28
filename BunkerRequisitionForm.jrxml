@@ -7,6 +7,33 @@
 			<![CDATA[]]>
 		</queryString>
 	</subDataset>
+	<parameter name="marineFuelOilTonnesPerHour" class="java.lang.String"/>
+	<parameter name="marineGasTonnesPerHour" class="java.lang.String"/>
+	<parameter name="allowLineClearing" class="java.lang.String"/>
+	<parameter name="isUnderFuelQualityTesting" class="java.lang.String"/>
+	<parameter name="productName" class="java.lang.String"/>
+	<parameter name="isBlendedInAdvance" class="java.lang.String"/>
+	<parameter name="viscosity" class="java.lang.String"/>
+	<parameter name="density" class="java.lang.String"/>
+	<parameter name="waterContentPercentage" class="java.lang.String"/>
+	<parameter name="flashPointCelsius" class="java.lang.String"/>
+	<parameter name="sulphurContentPercentage" class="java.lang.String"/>
+	<parameter name="deliveryTemperatureCelsius" class="java.lang.String"/>
+	<parameter name="constraintDescription" class="java.lang.String"/>
+	<parameter name="commencedAt" class="java.lang.String"/>
+	<parameter name="completedAt" class="java.lang.String"/>
+	<parameter name="cargoOfficerConfirmedAt" class="java.lang.String"/>
+	<parameter name="chiefEngineerConfirmedAt" class="java.lang.String"/>
+	<parameter name="surveyorConfirmedAt" class="java.lang.String"/>
+	<parameter name="cargoOfficerSignedAt" class="java.lang.String"/>
+	<parameter name="chiefEngineerSignedAt" class="java.lang.String"/>
+	<parameter name="surveyorSignedAt" class="java.lang.String"/>
+	<parameter name="cargoOfficerForConstraintConfirmedAt" class="java.lang.String"/>
+	<parameter name="chiefEngineerForConstraintConfirmedAt" class="java.lang.String"/>
+	<parameter name="surveyorForConstraintConfirmedAt" class="java.lang.String"/>
+	<parameter name="cargoOfficerForConstraintSignedAt" class="java.lang.String"/>
+	<parameter name="chiefEngineerForConstraintSignedAt" class="java.lang.String"/>
+	<parameter name="surveyorForConstraintSignedAt" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
@@ -14,7 +41,7 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="199" splitType="Stretch">
+		<band height="246" splitType="Stretch">
 			<staticText>
 				<reportElement x="197" y="0" width="160" height="30" uuid="33a73bdd-4fca-44e3-9d9d-594501fa0ed9"/>
 				<textElement textAlignment="Center"/>
@@ -38,7 +65,7 @@
 				<text><![CDATA[Location:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="10" y="90" width="330" height="50" uuid="9f012a19-70b4-47f2-9528-57cf47e8e907"/>
+				<reportElement x="8" y="90" width="330" height="50" uuid="9f012a19-70b4-47f2-9528-57cf47e8e907"/>
 				<text><![CDATA[Dear Sir,
 
 We have been nominated to supply you the following grade(s) for bunker:]]></text>
@@ -73,20 +100,28 @@ We have been nominated to supply you the following grade(s) for bunker:]]></text
 			<line>
 				<reportElement x="428" y="76" width="97" height="1" uuid="2da0d5e0-fc38-465c-ad5c-2df8253e258b"/>
 			</line>
+			<textField>
+				<reportElement x="433" y="58" width="100" height="20" uuid="d8ced52b-e288-4bbf-a199-b0d682f31095"/>
+				<textFieldExpression><![CDATA[$P{completedAt}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="433" y="34" width="100" height="30" uuid="e2c36ab1-2f21-4baa-825f-78b70ee278c0"/>
+				<textFieldExpression><![CDATA[$P{commencedAt}]]></textFieldExpression>
+			</textField>
 		</band>
 	</title>
 	<columnHeader>
-		<band height="54" splitType="Stretch">
+		<band height="45" splitType="Stretch">
 			<staticText>
-				<reportElement mode="Opaque" x="1" y="0" width="68" height="40" uuid="eccabb75-a7f3-450c-8291-cac8dba31178"/>
+				<reportElement mode="Opaque" x="1" y="0" width="98" height="40" uuid="eccabb75-a7f3-450c-8291-cac8dba31178"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[PRODUCT NAME]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="69" y="0" width="120" height="40" uuid="44d4d90a-622a-4381-aad2-3302d41d20cb"/>
-				<textElement>
+				<reportElement mode="Opaque" x="99" y="0" width="89" height="40" uuid="44d4d90a-622a-4381-aad2-3302d41d20cb"/>
+				<textElement textAlignment="Center">
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Product was blended on board in advance ? (Yes / No)]]></text>
@@ -99,7 +134,7 @@ We have been nominated to supply you the following grade(s) for bunker:]]></text
 				<text><![CDATA[Kinematic Viscosity @ 40°C or  50°C, mm²/s ISO 3104 ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="269" y="0" width="70" height="50" uuid="f553c518-1b12-4f4a-861c-d751be6ddbd0"/>
+				<reportElement mode="Opaque" x="269" y="0" width="70" height="45" uuid="f553c518-1b12-4f4a-861c-d751be6ddbd0"/>
 				<textElement textAlignment="Center">
 					<font size="8"/>
 				</textElement>
@@ -131,7 +166,36 @@ ISO 12185]]></text>
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="56" splitType="Stretch"/>
+		<band height="56" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="80" height="30" uuid="39e1e45d-45b5-4e60-9a9c-9a2d217ac9ad"/>
+				<textFieldExpression><![CDATA[$P{productName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="98" y="1" width="81" height="30" uuid="57b0db9e-a416-4f4a-8155-0c3431f1d0c7"/>
+				<textFieldExpression><![CDATA[$P{isBlendedInAdvance}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="189" y="1" width="64" height="30" uuid="57ff9bce-c151-4bc2-9c78-c4c6f4a6c58d"/>
+				<textFieldExpression><![CDATA[$P{viscosity}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="274" y="0" width="61" height="30" uuid="c53808b2-527b-435f-88fb-f41ca29d4bf2"/>
+				<textFieldExpression><![CDATA[$P{density}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="419" y="1" width="61" height="30" uuid="54ff45ac-5006-47b3-a9a6-5ded4e99d476"/>
+				<textFieldExpression><![CDATA[$P{flashPointCelsius}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="483" y="1" width="52" height="30" uuid="eb3c8927-0eb6-4043-9b87-37b7598fdb97"/>
+				<textFieldExpression><![CDATA[$P{sulphurContentPercentage}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="341" y="0" width="73" height="30" uuid="69e17e0a-d5d0-4efb-9081-b02a1bd0e639"/>
+				<textFieldExpression><![CDATA[$P{waterContentPercentage}]]></textFieldExpression>
+			</textField>
+		</band>
 	</detail>
 	<columnFooter>
 		<band height="457" splitType="Stretch">
@@ -271,7 +335,7 @@ Note 3 - Witnessing of custody transfer sampling is complusory.
 				<text><![CDATA[(Block Letters)]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="190" y="233" width="100" height="20" uuid="a5a12ba0-fa7f-4823-a79b-debe17c09588"/>
+				<reportElement x="189" y="233" width="100" height="20" uuid="a5a12ba0-fa7f-4823-a79b-debe17c09588"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
@@ -365,7 +429,7 @@ Note 3 - Witnessing of custody transfer sampling is complusory.
 				<reportElement x="465" y="312" width="87" height="1" uuid="cad5ba18-d237-4271-a02f-f050544d26ec"/>
 			</line>
 			<staticText>
-				<reportElement x="0" y="330" width="152" height="20" uuid="2602ae79-740c-470f-a98d-ddade3b16d39"/>
+				<reportElement x="0" y="330" width="100" height="20" uuid="2602ae79-740c-470f-a98d-ddade3b16d39"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
@@ -455,6 +519,50 @@ Note 3 - Witnessing of custody transfer sampling is complusory.
 			<line>
 				<reportElement x="372" y="96" width="80" height="1" uuid="026e1799-3df6-444e-af25-b24510fa9883"/>
 			</line>
+			<textField>
+				<reportElement x="398" y="62" width="190" height="20" uuid="dab51789-532f-44b9-ae06-31a0cc200b8a"/>
+				<textFieldExpression><![CDATA[$P{marineFuelOilTonnesPerHour}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="398" y="83" width="155" height="19" uuid="011e517b-7a6d-4e7f-aa33-def2083a7843"/>
+				<textFieldExpression><![CDATA[$P{marineGasTonnesPerHour}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="399" y="101" width="100" height="30" uuid="54176b65-4ee5-4351-8b1a-ef6397c92b9a"/>
+				<textFieldExpression><![CDATA[$P{allowLineClearing}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="399" y="118" width="140" height="20" uuid="81d02488-75ee-431c-acd9-774ece0981cb"/>
+				<textFieldExpression><![CDATA[$P{isUnderFuelQualityTesting}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="120" y="333" width="185" height="16" uuid="893ff1d2-e27e-4954-a56b-dc386d946e0f"/>
+				<textFieldExpression><![CDATA[$P{constraintDescription}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="68" y="295" width="146" height="31" uuid="23b5408a-a304-4b61-aa24-b731f9d001dd"/>
+				<textFieldExpression><![CDATA[$P{cargoOfficerSignedAt}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="242" y="295" width="141" height="13" uuid="59d01076-1cf7-4063-a50f-c11aebde4e64"/>
+				<textFieldExpression><![CDATA[$P{chiefEngineerSignedAt}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="451" y="296" width="100" height="30" uuid="04b68b91-69e0-4682-9daf-09d4f4625d5c"/>
+				<textFieldExpression><![CDATA[$P{surveyorSignedAt}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="443" y="415" width="100" height="30" uuid="c34c53f1-f135-4b00-bb2f-6c544a57e0b3"/>
+				<textFieldExpression><![CDATA[$P{surveyorForConstraintSignedAt}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="269" y="413" width="100" height="30" uuid="ba584f85-9a1c-4ac7-b186-5ea0820cea4e"/>
+				<textFieldExpression><![CDATA[$P{chiefEngineerForConstraintSignedAt}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="81" y="413" width="100" height="30" uuid="1e962d7f-d456-425c-add1-6a06006f468f"/>
+				<textFieldExpression><![CDATA[$P{cargoOfficerForConstraintSignedAt}]]></textFieldExpression>
+			</textField>
 		</band>
 	</columnFooter>
 	<pageFooter>
